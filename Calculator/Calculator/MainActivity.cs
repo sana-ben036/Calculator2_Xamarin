@@ -18,17 +18,7 @@ namespace Calculator
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
-            //EditText n1 = FindViewById<EditText>(Resource.Id.n1);
-            //EditText n2 = FindViewById<EditText>(Resource.Id.n2);
-            //TextView r = FindViewById<TextView>(Resource.Id.r);
-
-            //double number1 = double.Parse(n1.Text);
-            //double number2 = double.Parse(n2.Text);
-
-            //FindViewById<Button>(Resource.Id.add).Click += (s, e) =>
-            //{
-            //    r.Text = (number1 + number2).ToString();
-            //};
+            
 
             //Buttons to receive user input
             Button num1 = (Button)FindViewById(Resource.Id.btn1);
